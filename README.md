@@ -78,7 +78,7 @@ typedef struct binary_tree_s heap_t;
 - When created, a node does not have any child
 - Your function must return a pointer to the new node, or NULL on failure
 
-### [1. Insert left]()
+### [1. Insert left](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/1-binary_tree_insert_left.c)
 ##### Write a function that inserts a node as the left-child of another node
 
 - Prototype: binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
