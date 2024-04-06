@@ -1,4 +1,4 @@
-##C - Binary Trees
+## C - Binary Trees
 
 ### Requirements
 #### General
@@ -69,7 +69,7 @@ typedef struct binary_tree_s heap_t;
 
 ## Tasks
 
-### [0. New node]()
+### [0. New node](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/0-binary_tree_node.c)
 ##### Write a function that creates a binary tree node
 
 - Prototype: binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
