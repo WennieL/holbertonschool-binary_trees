@@ -88,7 +88,7 @@ typedef struct binary_tree_s heap_t;
 - If parent already has a left-child, the new node must take its place, 
   and the old left-child must be set as the left-child of the new node.
 
-### [2. Insert right]()
+### [2. Insert right](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/2-binary_tree_insert_right.c)
 ##### Write a function that inserts a node as the right-child of another node
 
 - Prototype: binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
