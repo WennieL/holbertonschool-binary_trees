@@ -101,7 +101,7 @@ typedef struct binary_tree_s heap_t;
 ### [3. Delete](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/3-binary_tree_delete.c)
 ##### Write a function that deletes an entire binary tree
 
-- Prototype: void binary_tree_delete(binary_tree_t *tree);
+- Prototype: ``` void binary_tree_delete(binary_tree_t *tree); ```
 - Where tree is a pointer to the root node of the tree to delete
 - If tree is NULL, do nothing
 
