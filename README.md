@@ -148,7 +148,7 @@ Prototype: ```void binary_tree_inorder(const binary_tree_t *tree, void (*func)(i
   The value in the node must be passed as a parameter to this function.
 - If tree or func is NULL, do nothing
 
-### [9. Height]()
+### [9. Height](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/9-binary_tree_height.c)
 ##### Write a function that measures the height of a binary tree
 
 - Prototype: ```size_t binary_tree_height(const binary_tree_t *tree);```
