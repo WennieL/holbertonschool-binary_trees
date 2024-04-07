@@ -121,7 +121,7 @@ Prototype: ```int binary_tree_is_root(const binary_tree_t *node);```
 - Your function must return 1 if node is a root, otherwise 0
 - If node is NULL, return 0
 
-### [6. Pre-order traversal]()
+### [6. Pre-order traversal](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/6-binary_tree_preorder.c)
 ##### Write a function that goes through a binary tree using pre-order traversal
 
 - Prototype: ```void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));```
