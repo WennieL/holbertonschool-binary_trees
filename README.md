@@ -130,7 +130,7 @@ Prototype: ```int binary_tree_is_root(const binary_tree_t *node);```
   The value in the node must be passed as a parameter to this function.
 - If tree or func is NULL, do nothing
 
-### [7. In-order traversal]()
+### [7. In-order traversal](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/7-binary_tree_inorder.c)
 ##### Write a function that goes through a binary tree using in-order traversal
 
 Prototype: ```void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));```
