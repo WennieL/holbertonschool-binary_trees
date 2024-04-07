@@ -104,3 +104,14 @@ typedef struct binary_tree_s heap_t;
 - Prototype: void binary_tree_delete(binary_tree_t *tree);
 - Where tree is a pointer to the root node of the tree to delete
 - If tree is NULL, do nothing
+
+### [4. Is leaf]()
+##### Write a function that checks if a node is a leaf
+
+- Prototype: 
+``` 
+int binary_tree_is_leaf(const binary_tree_t *node);
+```
+- Where node is a pointer to the node to check
+- Your function must return 1 if node is a leaf, otherwise 0
+- If node is NULL, return 0
