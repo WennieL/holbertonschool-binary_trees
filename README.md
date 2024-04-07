@@ -139,7 +139,7 @@ Prototype: ```void binary_tree_inorder(const binary_tree_t *tree, void (*func)(i
   The value in the node must be passed as a parameter to this function.
 - If tree or func is NULL, do nothing
 
-### [8. Post-order traversal]()
+### [8. Post-order traversal](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/8-binary_tree_postorder.c)
 ##### Write a function that goes through a binary tree using post-order traversal
 
 - Prototype: ```void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));```
