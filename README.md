@@ -98,7 +98,7 @@ typedef struct binary_tree_s heap_t;
 - If parent already has a right-child, the new node must take its place, 
   and the old right-child must be set as the right-child of the new node.
 
-### [3. Delete]()
+### [3. Delete](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/3-binary_tree_delete.c)
 ##### Write a function that deletes an entire binary tree
 
 - Prototype: void binary_tree_delete(binary_tree_t *tree);
