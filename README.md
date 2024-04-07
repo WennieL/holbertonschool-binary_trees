@@ -72,7 +72,7 @@ typedef struct binary_tree_s heap_t;
 ### [0. New node](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/0-binary_tree_node.c)
 ##### Write a function that creates a binary tree node
 
-- Prototype: ``` binary_tree_t *binary_tree_node(binary_tree_t *parent, int value); ```
+- Prototype: ```binary_tree_t *binary_tree_node(binary_tree_t *parent, int value); ```
 - Where parent is a pointer to the parent node of the node to create
 - And value is the value to put in the new node
 - When created, a node does not have any child
@@ -81,7 +81,7 @@ typedef struct binary_tree_s heap_t;
 ### [1. Insert left](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/1-binary_tree_insert_left.c)
 ##### Write a function that inserts a node as the left-child of another node
 
-- Prototype: ``` binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value); ```
+- Prototype: ```binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value); ```
 - Where parent is a pointer to the node to insert the left-child in
 - And value is the value to store in the new node
 - Your function must return a pointer to the created node, or NULL on failure or if parent is NULL
@@ -91,7 +91,7 @@ typedef struct binary_tree_s heap_t;
 ### [2. Insert right](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/2-binary_tree_insert_right.c)
 ##### Write a function that inserts a node as the right-child of another node
 
-- Prototype: ``` binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value); ```
+- Prototype: ```binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value); ```
 - Where parent is a pointer to the node to insert the right-child in
 - And value is the value to store in the new node
 - Your function must return a pointer to the created node, or NULL on failure or if parent is NULL
@@ -101,22 +101,22 @@ typedef struct binary_tree_s heap_t;
 ### [3. Delete](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/3-binary_tree_delete.c)
 ##### Write a function that deletes an entire binary tree
 
-- Prototype: ``` void binary_tree_delete(binary_tree_t *tree); ```
+- Prototype: ```void binary_tree_delete(binary_tree_t *tree); ```
 - Where tree is a pointer to the root node of the tree to delete
 - If tree is NULL, do nothing
 
 ### [4. Is leaf](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/4-binary_tree_is_leaf.c)
 ##### Write a function that checks if a node is a leaf
 
-- Prototype: ``` int binary_tree_is_leaf(const binary_tree_t *node); ```
+- Prototype: ```int binary_tree_is_leaf(const binary_tree_t *node); ```
 - Where node is a pointer to the node to check
 - Your function must return 1 if node is a leaf, otherwise 0
 - If node is NULL, return 0
 
-### [5. Is root]()
+### [5. Is root](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/5-binary_tree_is_root.c)
 ##### Write a function that checks if a given node is a root
 
-Prototype: ``` int binary_tree_is_root(const binary_tree_t *node);```
+Prototype: ```int binary_tree_is_root(const binary_tree_t *node);```
 - Where node is a pointer to the node to check
 - Your function must return 1 if node is a root, otherwise 0
 - If node is NULL, return 0
