@@ -155,7 +155,7 @@ Prototype: ```void binary_tree_inorder(const binary_tree_t *tree, void (*func)(i
 - Where tree is a pointer to the root node of the tree to measure the height.
 - If tree is NULL, your function must return 0
 
-### [10. Depth]()
+### [10. Depth](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/10-binary_tree_depth.c)
 ##### Write a function that measures the depth of a node in a binary tree
 
 - Prototype: ```size_t binary_tree_depth(const binary_tree_t *tree);```
