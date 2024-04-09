@@ -24,8 +24,9 @@ int binary_tree_balance(const binary_tree_t *tree)
 
 		if (tree->right != NULL)
 			right = binary_tree_balance(tree->right) + 1;
+	
 	} else
-		return (0);
+		return (1);
 
 	return (left - right);
 }
