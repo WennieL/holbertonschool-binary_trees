@@ -21,6 +21,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	if (left != right)
 		return (0);
+	return (1);
 
 	if (binary_tree_is_full(tree) && (left == right))
 		return (1);
