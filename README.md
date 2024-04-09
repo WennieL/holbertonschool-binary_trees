@@ -177,7 +177,7 @@ Prototype: ```void binary_tree_inorder(const binary_tree_t *tree, void (*func)(i
 - If tree is NULL, the function must return 0
 - A NULL pointer is not a leaf
 
-### [13. Nodes]()
+### [13. Nodes](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/13-binary_tree_nodes.c)
 ##### Write a function that counts the nodes with at least 1 child in a binary tree
 
 - Prototype: ```size_t binary_tree_nodes(const binary_tree_t *tree);```
