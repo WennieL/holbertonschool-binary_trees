@@ -169,7 +169,7 @@ Prototype: ```void binary_tree_inorder(const binary_tree_t *tree, void (*func)(i
 - Where tree is a pointer to the root node of the tree to measure the size
 - If tree is NULL, the function must return 0
 
-### [12. Leaves]()
+### [12. Leaves](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/12-binary_tree_leaves.c)
 ##### Write a function that counts the leaves in a binary tree
 
 - Prototype: ```size_t binary_tree_leaves(const binary_tree_t *tree);```
