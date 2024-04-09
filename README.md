@@ -185,7 +185,7 @@ Prototype: ```void binary_tree_inorder(const binary_tree_t *tree, void (*func)(i
 - If tree is NULL, the function must return 0
 - A NULL pointer is not a node
 
-### [14. Balance factor]()
+### [14. Balance factor](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/14-binary_tree_balance.c)
 ##### Write a function that measures the balance factor of a binary tree
 
 - Prototype: ```int binary_tree_balance(const binary_tree_t *tree);```
