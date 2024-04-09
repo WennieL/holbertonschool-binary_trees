@@ -215,7 +215,7 @@ Prototype: ```void binary_tree_inorder(const binary_tree_t *tree, void (*func)(i
 - If node is NULL or the parent is NULL, return NULL
 - If node has no sibling, return NULL
 
-### [18. Uncle]()
+### [18. Uncle](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/18-binary_tree_uncle.c)
 ##### Write a function that finds the uncle of a node
 
 - Prototype: ```binary_tree_t *binary_tree_uncle(binary_tree_t *node);```
