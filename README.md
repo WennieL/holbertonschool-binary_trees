@@ -199,7 +199,7 @@ Prototype: ```void binary_tree_inorder(const binary_tree_t *tree, void (*func)(i
 - Where tree is a pointer to the root node of the tree to check
 - If tree is NULL, your function must return 0
 
-### [16. Is perfect]()
+### [16. Is perfect](https://github.com/WennieL/holbertonschool-binary_trees/blob/main/16-binary_tree_is_perfect.c)
 ##### Write a function that checks if a binary tree is perfect
 
 - Prototype: ```int binary_tree_is_perfect(const binary_tree_t *tree);```
