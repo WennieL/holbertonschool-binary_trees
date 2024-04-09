@@ -191,3 +191,10 @@ Prototype: ```void binary_tree_inorder(const binary_tree_t *tree, void (*func)(i
 - Prototype: ```int binary_tree_balance(const binary_tree_t *tree);```
 - Where tree is a pointer to the root node of the tree to measure the balance factor
 - If tree is NULL, return 0
+
+### [15. Is full]()
+##### Write a function that checks if a binary tree is full
+
+- Prototype: ```int binary_tree_is_full(const binary_tree_t *tree);```
+- Where tree is a pointer to the root node of the tree to check
+- If tree is NULL, your function must return 0
